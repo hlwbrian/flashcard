@@ -51,5 +51,17 @@
         {"front": "perfect storm", "back": "bad situation happened beacuse many tiny elements combied"},
         {"front": "not one's first rodeo", "back": "have past experience on something"},
         {"front": "to sign one's life away", "back": "funny way to tell someone to sign something"}
+    ],
+    "Smashing English (Restaurant)": [
+        {"front": "Could I make a booking for <x> people at <time> on <date> please", "back": ""},
+        {"front": "I made a booking earlier at <time>, my name is <xxx>", "back": ""},
+        {"front": "do we order at the bar or is it table service?", "back": ""},
+        {"front": "Could I have a high chair for children?", "back": ""},
+        {"front": "Could I have the children menu?", "back": ""},
+        {"front": "Could I have an allergen menu please?", "back": ""},
+        {"front": "Yes I'm allergic to corn/nuts....", "back": ""},
+        {"front": "Could I have the pizza? / I'll go for the pizza.", "back": ""},
+        {"front": "Everything okay with your meal? Great, thanks", "back": ""},
+        {"front": "Could we have the bill please?", "back": ""}
     ]
 }
