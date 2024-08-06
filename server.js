@@ -27,7 +27,7 @@ app.get('/create', (req, res, next) => {
         db[title] = []; //update current db obj before update json file
         dbStr = JSON.stringify(db); 
 
-        fs.writeFileSync('./data.json', dbStr);
+        fs.writeFileSync('./data.json', dbStr, 'utf-8');
 
         res.status(203).json({
             'Msg' : 'Subject created'
@@ -56,7 +56,7 @@ app.get('/update', (req, res, next) => {
         db[title].push({ "front" : front, "back" : back });
 
         dbStr = JSON.stringify(db); 
-        fs.writeFileSync('./data.json', dbStr);
+        fs.writeFileSync('./data.json', dbStr, 'utf-8');
 
         res.status(200).json({
             'Msg' : 'Document updated'
